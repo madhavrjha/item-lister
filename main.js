@@ -22,7 +22,7 @@ function addItem(e) {
 
     // Create Delete Button Element
     const deleteButton = document.createElement('button');
-    deleteButton.className = 'btn btn-danger btn-sm float-right';
+    deleteButton.className = 'btn btn-danger btn-sm float-right delete';
     deleteButton.appendChild(document.createTextNode('X'));
     li.appendChild(deleteButton);
 
